@@ -1,0 +1,87 @@
+{
+  "name": "steal-a-rotting-brain",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "CharacterWalkSpeed": 18,
+        "CharacterJumpPower": 48,
+        "EnableMouseLockOption": false
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": false,
+        "FallenPartsDestroyHeight": -60
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": {
+          "Color3": [0.11, 0.13, 0.14]
+        },
+        "OutdoorAmbient": {
+          "Color3": [0.16, 0.18, 0.2]
+        },
+        "Brightness": 1.4,
+        "ClockTime": 0.4,
+        "GeographicLatitude": 12,
+        "ExposureCompensation": 0.15,
+        "GlobalShadows": true,
+        "FogColor": {
+          "Color3": [0.09, 0.11, 0.1]
+        },
+        "FogStart": 60,
+        "FogEnd": 420
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.36,
+          "Offset": 0.1,
+          "Color": {
+            "Color3": [0.68, 0.73, 0.65]
+          },
+          "Decay": {
+            "Color3": [0.35, 0.42, 0.33]
+          },
+          "Glare": 0.15,
+          "Haze": 1.6
+        }
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "AmbientReverb": "Cave"
+      }
+    }
+  }
+}

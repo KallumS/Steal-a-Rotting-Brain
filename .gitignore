@@ -1,0 +1,20 @@
+# Rojo / Roblox build output
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxm
+*.rbxmx
+build/
+
+# Tooling
+/.luau-analyze
+/sourcemap.json
+/luau
+/luau-*
+*.zip
+
+# Editors
+.DS_Store
+.vscode/
+.idea/
